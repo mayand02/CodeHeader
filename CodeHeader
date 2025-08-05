@@ -1,0 +1,36 @@
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║                                                                          ║
+# ║                                                                          ║
+# ║                                                                          ║
+# ║                 ;'-.                                                     ║
+# ║    `;-._        )  '---.._                                               ║
+# ║      >  `-.__.-'          `'.__                                          ║
+# ║     /_.-'-._         _,   ^ ---)                                         ║
+# ║     `       `'------/_.'----```                                          ║
+# ║                      `                                                   ║
+# ║                                                                          ║
+# ║   Python Excel VBA Importer – by Andreas M.                              ║
+# ║                                                                          ║
+# ║   Version History                                                        ║
+# ║   ┌────────────┬────────────┬────────────────────────────────────────┐   ║
+# ║   │  Version   │   Date     │                 Notes                  │   ║
+# ║   ├────────────┼────────────┼────────────────────────────────────────┤   ║
+# ║   │   v1.0     │ 2025-08-05 │ Initial version                        │   ║
+# ║   │   v1.1     │ yyyy-mm-dd │ [future changes here]                  │   ║
+# ║   └────────────┴────────────┴────────────────────────────────────────┘   ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
+
+"""
+Function Description (EN):
+
+This Python script allows you to:
+1. Select an Excel workbook (.xlsm or similar).
+2. Select a folder with VBA script files (.bas / .cls / .frm).
+3. Automatically import all found modules into the selected workbook's VBA project.
+
+Requirements:
+- Python + pywin32
+- 'Trust access to the VBA project object model' must be enabled in Excel
+
+Made for developers who prefer not to import VBA files one by one, ever again.
+"""
